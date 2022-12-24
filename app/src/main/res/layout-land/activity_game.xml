@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btPause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/gameBtPauseDesc"
+            android:src="@android:drawable/ic_media_pause" />
+
+        <TextView
+            android:id="@+id/gameTextScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/gameTextScore"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/healContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.daniel.kidsapp.Game.GameView
+        android:id="@+id/gameSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="fill_horizontal"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btNum1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt1" />
+
+        <Button
+            android:id="@+id/btNum2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt2" />
+
+        <Button
+            android:id="@+id/btNum3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt3" />
+
+        <Button
+            android:id="@+id/btNum4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt4" />
+
+        <Button
+            android:id="@+id/btNum5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btNum6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt6" />
+
+        <Button
+            android:id="@+id/btNum7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt7" />
+
+        <Button
+            android:id="@+id/btNum8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt8" />
+
+        <Button
+            android:id="@+id/btNum9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt9" />
+
+        <Button
+            android:id="@+id/btNum0"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="@string/gameBt0" />
+    </LinearLayout>
+
+</LinearLayout>

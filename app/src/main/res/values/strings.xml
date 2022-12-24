@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name" translatable="false">Maths Attack</string>
+    <string name="menuWelcomeText">¡Bienvenido, %1$s!</string>
+
+    <string name="inputNameError">Tienes que introducir un nombre.</string>
+    <string name="inputNameHint">Nombre</string>
+    <string name="nameDialog_Text">Introduce tu nombre</string>
+    <string name="nameDialog_continue">Continuar</string>
+    <string name="nameDialog_error">El nombre introducido no es válido.</string>
+
+    <string name="menuBtPlay">¡Jugar!</string>
+    <string name="menuBtStore">Tienda</string>
+
+    <string name="dificultyLvl1">Nivel 1 - Suma</string>
+    <string name="dificultyLvl2">Nivel 2 - Resta</string>
+    <string name="dificultyLvl3">Nivel 3 - Multiplica</string>
+    <string name="dificultyLvl4">Nivel 4 - Divide</string>
+    <string name="dificultyLvl5">Nivel 5 - ¡Todo en uno!</string>
+
+    <string name="scoreboardModeInfo">Mostrando puntuaciones para %1$s</string>
+    <string name="scoreboardNoEntries">No hay puntuaciones para este modo.</string>
+
+    <string name="sbMenuReturn">Volver</string>
+    <string name="sbMenuLvl1">Suma</string>
+    <string name="sbMenuLvl2">Resta</string>
+    <string name="sbMenuLvl3">Multiplicación</string>
+    <string name="sbMenuLvl4">Divisiones</string>
+    <string name="sbMenuLvl5">Nivel 5</string>
+
+    <string name="gameBtPauseDesc">Pausar el juego.</string>
+    <string name="gameBt1" translatable="false">1</string>
+    <string name="gameBt2" translatable="false">2</string>
+    <string name="gameBt3" translatable="false">3</string>
+    <string name="gameBt4" translatable="false">4</string>
+    <string name="gameBt5" translatable="false">5</string>
+    <string name="gameBt6" translatable="false">6</string>
+    <string name="gameBt7" translatable="false">7</string>
+    <string name="gameBt8" translatable="false">8</string>
+    <string name="gameBt9" translatable="false">9</string>
+    <string name="gameBt0" translatable="false">0</string>
+    <string name="gameTextScore">Puntos: %1$d</string>
+
+    <string name="pauseMenuText">Menú de Pausa</string>
+    <string name="pauseBtContinue">Continuar</string>
+    <string name="pauseBtExit">Salir al menú</string>
+
+    <string name="gameOverText">Has sido invadido</string>
+    <string name="gameOverScore">Puntuación: %1$d</string>
+    <string name="gameOverTime">Tiempo sobrevivido: %1$d segundos</string>
+    <string name="gameOverBtExit">Continuar</string>
+
+    <string name="prefsCatData">Datos de la Aplicación</string>
+    <string name="prefsClearDBKey" translatable="false">prefClearDB</string>
+    <string name="prefsClearDBTittle">Limpiar Base de datos</string>
+    <string name="prefsClearDBSub">Se eliminarán las tablas de puntuaciones.</string>
+    <string name="prefsClearDBToast">Se ha limpiado la tabla de puntuaciones</string>
+
+    <string name="prefsChangeNameKey" translatable="false">editUsername</string>
+    <string name="prefsChangeNameTitle">Cambiar el nombre del jugador</string>
+
+    <string name="prefsClearNameKey" translatable="false">clearUsername</string>
+    <string name="prefsClearNameTitle">Eliminar nombre de usuario</string>
+    <string name="prefsClearNameSum">Eliminar el nombre de usuario guardado</string>
+    <string name="prefsClearNameToast">Se ha eliminado el nombre de usuario.</string>
+
+
+    <string name="prefsCatInfo">Información</string>
+    <string name="prefsShowInfoKey" translatable="false">info</string>
+    <string name="prefsShowInfoTitle">Información sobre la Aplicación</string>
+    <string name="appInfoText" translatable="false">Maths Attack - Daniel García Miguel - 12/12/2022</string>
+
+
+    <string name="prefsCatDebug" translatable="false">DEBUG</string>
+    <string name="prefsAddDummyScoresKey" translatable="false">addDummyScores</string>
+    <string name="prefsAddDummyScoresTittle" translatable="false">Añadir puntuaciones de ejemplo</string>
+
+
+
+    <string name="sharedPrefsFileName" translatable="false">kidsPrefs</string>
+    <string name="sharedPrefsKeyUsername" translatable="false">username</string>
+
+</resources>

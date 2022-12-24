@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Fragments.NameInput">
+
+    <ImageButton
+        android:id="@+id/btNameReturn"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        android:layout_gravity="left"
+        android:layout_margin="0dp"
+        android:backgroundTint="@color/purple_500"
+        android:scaleType="fitCenter"
+        android:src="@drawable/resource_return" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/nameDialog_Text"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColor"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/inputNameHint"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btNamePlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/nameDialog_continue" />
+
+</LinearLayout>

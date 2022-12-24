@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sbMenuReturn"
+        android:icon="@drawable/resource_return"
+        android:title="@string/sbMenuReturn"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sbMenuAdd"
+        android:icon="@drawable/add"
+        android:title="@string/sbMenuLvl1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sbMenuSub"
+        android:icon="@drawable/minus"
+        android:title="@string/sbMenuLvl2"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sbMenuMult"
+        android:icon="@drawable/multi"
+        android:title="@string/sbMenuLvl3"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sbMenuDiv"
+        android:icon="@drawable/div"
+        android:title="@string/sbMenuLvl4"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sbMenuLvl5"
+        android:icon="@drawable/lvl5"
+        android:title="@string/sbMenuLvl5"
+        app:showAsAction="always" />
+</menu>

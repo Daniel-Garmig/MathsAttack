@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Fragments.MainMenu">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/menuWelcomeText"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColor"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btPlay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:text="@string/menuBtPlay" />
+
+    <Button
+        android:id="@+id/btStore"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:enabled="false"
+        android:text="@string/menuBtStore" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btStats"
+            android:layout_width="68dp"
+            android:layout_height="66dp"
+            android:layout_marginRight="45dp"
+            android:backgroundTint="@color/purple_500"
+            android:scaleType="fitCenter"
+            android:src="@drawable/trophy" />
+
+        <ImageButton
+            android:id="@+id/btSettings"
+            android:layout_width="74dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="45dp"
+            android:backgroundTint="@color/purple_500"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings" />
+    </LinearLayout>
+
+</LinearLayout>

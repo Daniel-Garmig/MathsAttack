@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:title="@string/prefsCatDebug">
+
+    <PreferenceCategory android:title="@string/prefsCatData">
+
+        <EditTextPreference
+            android:key="editUsername"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/prefsChangeNameTitle" />
+        <Preference
+            android:title="@string/prefsClearNameTitle"
+            app:key="@string/prefsClearNameKey"
+            app:summary="@string/prefsClearNameSum"
+            app:title="@string/prefsClearNameTitle" />
+        <Preference
+            android:title="@string/prefsClearDBTittle"
+            app:key="prefClearDB"
+            app:summary="@string/prefsClearDBSub"
+            app:title="@string/prefsClearDBTittle" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefsCatInfo">
+
+        <Preference
+            app:key="@string/prefsShowInfoKey"
+            app:title="@string/prefsShowInfoTitle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefsCatDebug">
+
+        <Preference
+            app:key="@string/prefsAddDummyScoresKey"
+            app:title="@string/prefsAddDummyScoresTittle" />
+    </PreferenceCategory>
+</PreferenceScreen>

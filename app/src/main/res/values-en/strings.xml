@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuWelcomeText">Welcome back, %1$s!</string>
+    <string name="inputNameError">You have to enter a name.</string>
+    <string name="inputNameHint">Name</string>
+    <string name="nameDialog_Text">Enter your name</string>
+    <string name="menuBtPlay">Play!</string>
+    <string name="menuBtStore">Store</string>
+    <string name="dificultyLvl1">Level 1 - Addition</string>
+    <string name="dificultyLvl2">Level 2 - Subtraction</string>
+    <string name="dificultyLvl3">Level 3 - Multiply</string>
+    <string name="dificultyLvl4">Level 4 - Divide</string>
+    <string name="dificultyLvl5">Level 5 - Attack \'em All!</string>
+    <string name="scoreboardModeInfo">Scores for %1$s</string>
+    <string name="scoreboardNoEntries">No scores here yet.</string>
+    <string name="sbMenuReturn">Return</string>
+    <string name="sbMenuLvl1">Addition</string>
+    <string name="sbMenuLvl2">Subtration</string>
+    <string name="sbMenuLvl3">Multiply</string>
+    <string name="sbMenuLvl4">Divide</string>
+    <string name="sbMenuLvl5">Level 5</string>
+    <string name="gameBtPauseDesc">Pause game</string>
+    <string name="gameTextScore">Score: %1$d</string>
+    <string name="pauseMenuText">Pause</string>
+    <string name="pauseBtContinue">Resume</string>
+    <string name="pauseBtExit">Exit to menu</string>
+    <string name="gameOverText">You have been invaded</string>
+    <string name="gameOverScore">Score: %1$d</string>
+    <string name="gameOverTime">Time Alive: %1$d seconds</string>
+    <string name="gameOverBtExit">Continue</string>
+    <string name="prefsCatData">App Data</string>
+    <string name="prefsClearDBTittle">Clear Database</string>
+    <string name="prefsClearDBSub">Clear all scores on database.</string>
+    <string name="prefsChangeNameTitle">Change username</string>
+    <string name="prefsClearNameTitle">Clear username.</string>
+    <string name="prefsClearNameSum">Clear saved username.</string>
+    <string name="prefsCatInfo">Info</string>
+    <string name="prefsShowInfoTitle">App info</string>
+    <string name="prefsClearNameToast">Username has been removed</string>
+    <string name="prefsClearDBToast">Scoreboard cleared!</string>
+    <string name="nameDialog_continue">Continue</string>
+    <string name="nameDialog_error">Invalid Username</string>
+</resources>
